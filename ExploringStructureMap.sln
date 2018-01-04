@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Good.BusinessInterfaces", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationInversion.Samples", "CreationInversion.Samples\CreationInversion.Samples.csproj", "{1A834914-5D20-4016-A29C-A0263D2C3831}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureMap.WebApi", "StructureMap.WebApi\StructureMap.WebApi.csproj", "{5F1A20B1-9C78-455F-99C1-0AB49A263326}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -115,6 +117,10 @@ Global
 		{1A834914-5D20-4016-A29C-A0263D2C3831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A834914-5D20-4016-A29C-A0263D2C3831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A834914-5D20-4016-A29C-A0263D2C3831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1A20B1-9C78-455F-99C1-0AB49A263326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1A20B1-9C78-455F-99C1-0AB49A263326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1A20B1-9C78-455F-99C1-0AB49A263326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1A20B1-9C78-455F-99C1-0AB49A263326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -138,6 +144,7 @@ Global
 		{54B1149C-585E-4FE1-8E28-15E123769792} = {42F008C2-69FB-4176-8798-94414796E30D}
 		{CF3A8CB0-3566-40D2-A70A-F19ADD4A8A26} = {42F008C2-69FB-4176-8798-94414796E30D}
 		{1A834914-5D20-4016-A29C-A0263D2C3831} = {A2732E63-C978-4F87-8F34-152681373967}
+		{5F1A20B1-9C78-455F-99C1-0AB49A263326} = {3E4E9745-AA82-4164-AD84-1DA26CA38270}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC920536-3B83-4316-80F2-9420DF592967}

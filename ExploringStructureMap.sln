@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureMap.WebApi", "Stru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureMap.ServiceLocator", "StructureMap.ServiceLocator\StructureMap.ServiceLocator.csproj", "{17968C39-9017-4249-948C-DF3A434224FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureMap.StrategyPattern", "StructureMap.StrategyPattern\StructureMap.StrategyPattern.csproj", "{4D86EB23-33F6-4AFC-B254-BF1BA1BB44CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,10 @@ Global
 		{17968C39-9017-4249-948C-DF3A434224FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17968C39-9017-4249-948C-DF3A434224FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17968C39-9017-4249-948C-DF3A434224FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D86EB23-33F6-4AFC-B254-BF1BA1BB44CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D86EB23-33F6-4AFC-B254-BF1BA1BB44CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D86EB23-33F6-4AFC-B254-BF1BA1BB44CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D86EB23-33F6-4AFC-B254-BF1BA1BB44CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -152,6 +158,7 @@ Global
 		{1A834914-5D20-4016-A29C-A0263D2C3831} = {A2732E63-C978-4F87-8F34-152681373967}
 		{5F1A20B1-9C78-455F-99C1-0AB49A263326} = {3E4E9745-AA82-4164-AD84-1DA26CA38270}
 		{17968C39-9017-4249-948C-DF3A434224FA} = {3E4E9745-AA82-4164-AD84-1DA26CA38270}
+		{4D86EB23-33F6-4AFC-B254-BF1BA1BB44CB} = {3E4E9745-AA82-4164-AD84-1DA26CA38270}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC920536-3B83-4316-80F2-9420DF592967}

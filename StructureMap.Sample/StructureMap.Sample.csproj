@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomRepository.cs" />
     <Compile Include="EmployeeService.cs" />
+    <Compile Include="IRepository.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="PatientService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

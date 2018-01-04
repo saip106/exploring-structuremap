@@ -28,9 +28,9 @@ namespace StrcutureMap.Tests
         [TestMethod]
         public void it_should_successfully_build_the_instance()
         {
-            var employeeService = _container.GetInstance<ProviderService>();
-            employeeService.Should().NotBeNull();
-            employeeService.Should().BeOfType<ProviderService>();
+            _container
+                .GetInstance<ProviderService>()
+                .Should().BeOfType<ProviderService>();
         }
     }
 }

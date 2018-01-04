@@ -2,12 +2,17 @@
 {
     public class ProviderMapper
     {
-        private readonly ILogger _logger;
+        public ILogger Logger { get; }
 
         public ProviderMapper(
             ILogger logger)
         {
-            _logger = logger;
+            Logger = logger;
+        }
+
+        public void Map()
+        {
+            
         }
     }
 }

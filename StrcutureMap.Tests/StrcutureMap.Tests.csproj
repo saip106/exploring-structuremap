@@ -69,6 +69,7 @@
     <Compile Include="05_when_building_a_named_instance.cs" />
     <Compile Include="03_when_building_an_class_instance_with_dependencies_using_implicit_registration.cs" />
     <Compile Include="08_when_resolving_a_plugin_type_that_has_multiple_implementations.cs" />
+    <Compile Include="09_when_resolving_a_composition_root.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

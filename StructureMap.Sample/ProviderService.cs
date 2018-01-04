@@ -5,12 +5,12 @@ namespace StructureMap.Sample
     public interface IProviderService
     {
         ILogger Logger { get; }
+        IProviderRepository ProviderRepository { get; }
         IEnumerable<Provider> GetProviders();
     }
 
     public class ProviderService : IProviderService
     {
-        private readonly IProviderRepository _providerRepository;
         private readonly ProviderMapper _providerMapper;
 
         public ProviderService(
@@ -18,16 +18,18 @@ namespace StructureMap.Sample
             ProviderMapper providerMapper,
             ILogger logger)
         {
-            _providerRepository = providerRepository;
             _providerMapper = providerMapper;
+            ProviderRepository = providerRepository;
             Logger = logger;
         }
 
+        public IProviderRepository ProviderRepository { get; }
         public ILogger Logger { get; }
 
         public IEnumerable<Provider> GetProviders()
         {
-            return _providerRepository.GetProviders();
+            _providerMapper.Map();
+            return ProviderRepository.GetProviders();
         }
     }
 

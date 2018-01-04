@@ -4,17 +4,18 @@ namespace StructureMap.Sample
 {
     public interface IProviderRepository
     {
+        ILogger Logger { get; }
         IEnumerable<Provider> GetProviders();
     }
 
     public class ProviderRepository : IProviderRepository
     {
-        private readonly ILogger _logger;
+        public ILogger Logger { get; }
 
         public ProviderRepository(
             ILogger logger)
         {
-            _logger = logger;
+            Logger = logger;
         }
 
         public IEnumerable<Provider> GetProviders()
